@@ -278,8 +278,8 @@
     :keys ["Z"]
     :dispatch {:type :player-rotate :direction :left}}
    {:doc "HOLD"
-    :codes #{"KeyC"}
-    :keys ["C"]
+    :codes #{"ShiftLeft"}
+    :keys ["Shift"]
     :dispatch {:type :player-hold}}
    {:doc "HARD DROP"
     :codes #{"Space"}
